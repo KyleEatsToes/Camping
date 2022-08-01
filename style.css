@@ -4,7 +4,6 @@ body {
   padding: 25px;
   font-family: sans-serif;
 }
-html,
 body {
   max-width: 1200px;
   margin: auto;
@@ -12,11 +11,54 @@ body {
   font-size: 18px;
   line-height: 1.4em;
   color: GhostWhite;
+  
 }
-
+a{
+ text-decoration:none;
+}
 body {
   background-image: url("../img/space.jpg");
   height: 100%;
   background-attachment: fixed;
   background-size: cover;
 }
+h4 {
+    display: inline-block;
+    text-align: center;
+}
+img{
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+.border{
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  padding:10px;
+}
+
+#header-background{
+  height:600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background:url('https://assets3.thrillist.com/v1/image/2870172/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70');
+}
+#header-text{
+  text-align: center;
+  padding-top: 300px;
+}
+#contact{
+  
+}
+
+
